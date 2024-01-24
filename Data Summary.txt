@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Read CSV file
+data = pd.read_csv('your_data.csv')
+
+# Display basic summary statistics
+summary_stats = data.describe()
+print(summary_stats)
